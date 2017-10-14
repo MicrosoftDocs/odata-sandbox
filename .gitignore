@@ -1,5 +1,7 @@
 log/
 obj/
+_model/
+_viewmodel/
 _site/
 .optemp/
 _themes*/

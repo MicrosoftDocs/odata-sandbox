@@ -3,7 +3,8 @@
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -32,6 +33,10 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "odata-sandbox"
+    "dest": "odata-sandbox",
+    "exportRawModel": true,
+    "rawModelOutputFolder": "../_model",
+    "exportViewModel": true,
+    "viewModelOutputFolder": "../_viewmodel"
   }
 }
