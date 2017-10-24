@@ -1,0 +1,679 @@
+### YamlMime:ODataIndex
+uid: Microsoft.Dynamics.CRM.ActionIndex
+name: Web API Action Reference
+title: "Dynamics 365 Customer Engagement Web API Action Reference | MicrosoftDocs"
+metadata:
+  ms.date: "10/20/2017"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to:
+    - "Dynamics 365 (online)"
+  ms.assetid: 9d8c9441-fa96-49da-bacb-a9d7f2d6dfd8
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+description: "Actions represent operations which may have observable side effects, such as creating or updating records. An Action may require parameters and may return a value. Actions may be bound to entity types."
+in_this_section:
+- type: Microsoft.Dynamics.CRM.AddAppComponents
+  description: ""
+- type: Microsoft.Dynamics.CRM.AddItemCampaign
+  description: "Adds an item to a campaign."
+- type: Microsoft.Dynamics.CRM.AddItemCampaignActivity
+  description: "Adds an item to a campaign activity. "
+- type: Microsoft.Dynamics.CRM.AddListMembersList
+  description: "Adds members to a list. "
+- type: Microsoft.Dynamics.CRM.AddMemberList
+  description: "Adds a member to a list (marketing list).  "
+- type: Microsoft.Dynamics.CRM.AddMembersTeam
+  description: "Adds members to a team. "
+- type: Microsoft.Dynamics.CRM.AddPrincipalToQueue
+  description: "Adds the specified principal to the list of queue members. "
+- type: Microsoft.Dynamics.CRM.AddPrivilegesRole
+  description: "Adds a set of existing privileges to an existing role. "
+- type: Microsoft.Dynamics.CRM.AddRecurrence
+  description: "Adds recurrence information to an existing appointment. "
+- type: Microsoft.Dynamics.CRM.AddSolutionComponent
+  description: "Adds a solution component to an unmanaged solution.  "
+- type: Microsoft.Dynamics.CRM.AddToQueue
+  description: "Moves an entity record from a source queue to a destination queue."
+- type: Microsoft.Dynamics.CRM.AddUserToRecordTeam
+  description: "Adds a user to the auto created access team for the specified record. "
+- type: Microsoft.Dynamics.CRM.ApplyRecordCreationAndUpdateRule
+  description: "Applies record creation and update rules to activities in 365 created as a result of the integration with external applications.  "
+- type: Microsoft.Dynamics.CRM.ApplyRoutingRule
+  description: "Applies the active routing rule to an incident.  "
+- type: Microsoft.Dynamics.CRM.AutoMapEntity
+  description: "Generates a new set of attribute mappings based on the metadata. "
+- type: Microsoft.Dynamics.CRM.BackgroundSendEmail
+  description: ""
+- type: Microsoft.Dynamics.CRM.Book
+  description: "Schedules or \"books\" an appointment, recurring appointment, or service appointment (service activity). "
+- type: Microsoft.Dynamics.CRM.BulkDelete
+  description: "Submits a bulk delete job that deletes selected records in bulk. This job runs asynchronously in the background without blocking other activities."
+- type: Microsoft.Dynamics.CRM.BulkDetectDuplicates
+  description: "Submits an asynchronous system job that detects and logs multiple duplicate records."
+- type: Microsoft.Dynamics.CRM.CalculateActualValueOpportunity
+  description: "Calculates the value of an opportunity that is in the \"Won\" state. "
+- type: Microsoft.Dynamics.CRM.CalculatePrice
+  description: "Calculates price in an opportunity, quote, order, and invoice."
+- type: Microsoft.Dynamics.CRM.CanBeReferenced
+  description: "Checks whether the specified entity can be the primary entity (one) in a one-to-many relationship. "
+- type: Microsoft.Dynamics.CRM.CanBeReferencing
+  description: "Checkes whether an entity can be the referencing entity in a one-to-many relationship. "
+- type: Microsoft.Dynamics.CRM.CancelContract
+  description: "Cancels a contract.  "
+- type: Microsoft.Dynamics.CRM.CancelSalesOrder
+  description: "Cancels a sales order. "
+- type: Microsoft.Dynamics.CRM.CanManyToMany
+  description: "Checks whether an entity can participate in a many-to-many relationship.  "
+- type: Microsoft.Dynamics.CRM.CloneAsPatch
+  description: "Creates a solution patch from a managed or unmanaged solution."
+- type: Microsoft.Dynamics.CRM.CloneAsSolution
+  description: "Creates a new copy of an unmanged solution that contains the original solution plus all of its patches."
+- type: Microsoft.Dynamics.CRM.CloneContract
+  description: "Copies an existing contract and its line items. "
+- type: Microsoft.Dynamics.CRM.CloneMobileOfflineProfile
+  description: "For internal use only. "
+- type: Microsoft.Dynamics.CRM.CloneProduct
+  description: "Copies an existing product family, product, or bundle under the same parent record. "
+- type: Microsoft.Dynamics.CRM.CloseIncident
+  description: "Closes an incident (case)."
+- type: Microsoft.Dynamics.CRM.CloseQuote
+  description: "Closes a quote.  "
+- type: Microsoft.Dynamics.CRM.CompoundUpdateDuplicateDetectionRule
+  description: "Updates a duplicate rule (duplicate detection rule) and its related duplicate rule conditions. "
+- type: Microsoft.Dynamics.CRM.ConvertOwnerTeamToAccessTeam
+  description: "Converts a team of type owner to a team of type access.  "
+- type: Microsoft.Dynamics.CRM.ConvertQuoteToSalesOrder
+  description: "Converts a quote to a sales order.  "
+- type: Microsoft.Dynamics.CRM.ConvertSalesOrderToInvoice
+  description: "Converts a sales order to an invoice.  "
+- type: Microsoft.Dynamics.CRM.CopyCampaign
+  description: "Copies a campaign. "
+- type: Microsoft.Dynamics.CRM.CopyCampaignResponse
+  description: "Creates a copy of a campaign response"
+- type: Microsoft.Dynamics.CRM.CopyDynamicListToStatic
+  description: "Creates a static list from the specified dynamic list and add the members that satisfy the dynamic list query criteria to the static list. "
+- type: Microsoft.Dynamics.CRM.CopyMembersList
+  description: "Copies the members from the source list to the target list without creating duplicates.  "
+- type: Microsoft.Dynamics.CRM.CopySystemForm
+  description: "Creates a new entity form that is based on an existing entity form.  "
+- type: Microsoft.Dynamics.CRM.CreateActivitiesList
+  description: "Creates a quick campaign to distribute an activity to members of a list (marketing list). "
+- type: Microsoft.Dynamics.CRM.CreateCustomerRelationships
+  description: "Creates a new customer lookup attribute, and optionally, to add it to a specified unmanaged solution."
+- type: Microsoft.Dynamics.CRM.CreateException
+  description: "Creates an exception for the recurring appointment instance. "
+- type: Microsoft.Dynamics.CRM.CreateInstance
+  description: "Creates future unexpanded instances for the recurring appointment master.  "
+- type: Microsoft.Dynamics.CRM.CreateKnowledgeArticleTranslation
+  description: "Creates translation of a knowledge article instance."
+- type: Microsoft.Dynamics.CRM.CreateKnowledgeArticleVersion
+  description: "Creates a major or minor version of a knowledge article instance."
+- type: Microsoft.Dynamics.CRM.CreateWorkflowFromTemplate
+  description: "Creates a workflow (process) from a workflow template. "
+- type: Microsoft.Dynamics.CRM.DeleteAndPromote
+  description: "Replaces managed solution (A) plus all of its patches with managed solution (B) that is the clone of (A) and all of its patches."
+- type: Microsoft.Dynamics.CRM.DeleteAuditData
+  description: "Deletes all audit data records up until a specified end date. "
+- type: Microsoft.Dynamics.CRM.DeleteOpenInstances
+  description: "Deletes instances of a recurring appointment master that have an “Open” state.  "
+- type: Microsoft.Dynamics.CRM.DeleteOptionValue
+  description: "Deletes an option value in a global or local option set.  "
+- type: Microsoft.Dynamics.CRM.DeliverIncomingEmail
+  description: "Creates an email activity record from an incoming email message. "
+- type: Microsoft.Dynamics.CRM.DeliverPromoteEmail
+  description: "Creates an email activity record from the specified email message  "
+- type: Microsoft.Dynamics.CRM.DeprovisionLanguage
+  description: "Deprovisions a language. "
+- type: Microsoft.Dynamics.CRM.DistributeCampaignActivity
+  description: "Creates a bulk operation that distributes a campaign activity. "
+- type: Microsoft.Dynamics.CRM.ExecuteWorkflow
+  description: "Executes a workflow."
+- type: Microsoft.Dynamics.CRM.ExportMappingsImportMap
+  description: "Exports a data map as an XML formatted data. "
+- type: Microsoft.Dynamics.CRM.ExportSolution
+  description: "Exports a solution. "
+- type: Microsoft.Dynamics.CRM.ExportTranslation
+  description: "Exports all translations for a specific solution to a compressed file. "
+- type: Microsoft.Dynamics.CRM.FulfillSalesOrder
+  description: "Fulfills a sales order."
+- type: Microsoft.Dynamics.CRM.FullTextSearchKnowledgeArticle
+  description: "Performs a full-text search on knowledge articles in Dynamics 365 using the specified search text."
+- type: Microsoft.Dynamics.CRM.GenerateInvoiceFromOpportunity
+  description: "Generates an invoice from an opportunity. "
+- type: Microsoft.Dynamics.CRM.GenerateQuoteFromOpportunity
+  description: "Generates a quote from an opportunity. "
+- type: Microsoft.Dynamics.CRM.GenerateSalesOrderFromOpportunity
+  description: "Generates a sales order (order) from an opportunity.  "
+- type: Microsoft.Dynamics.CRM.GenerateSocialProfile
+  description: "Returns an existing social profile record if one exists, otherwise generates a new one and returns it.  "
+- type: Microsoft.Dynamics.CRM.GetInvoiceProductsFromOpportunity
+  description: "Retrieves the products from an opportunity and copy them to the invoice.  "
+- type: Microsoft.Dynamics.CRM.GetQuoteProductsFromOpportunity
+  description: "Retrieves the products from an opportunity and copy them to the quote. "
+- type: Microsoft.Dynamics.CRM.GetSalesOrderProductsFromOpportunity
+  description: "Retrieves the products from an opportunity and copy them to the sales order. "
+- type: Microsoft.Dynamics.CRM.GetTrackingTokenEmail
+  description: "Returns a tracking token that can then be passed as a parameter to the SendEmailRequest message. "
+- type: Microsoft.Dynamics.CRM.GrantAccess
+  description: "Grants a security principal (user or team) access to the specified record."
+- type: Microsoft.Dynamics.CRM.ImportFieldTranslation
+  description: "Imports translations from a compressed file."
+- type: Microsoft.Dynamics.CRM.ImportMappingsImportMap
+  description: "Imports the XML representation of a data map and create an import map (data map) based on this data.  "
+- type: Microsoft.Dynamics.CRM.ImportRecordsImport
+  description: "Submits an asynchronous job that uploads the transformed data into Microsoft Dynamics 365."
+- type: Microsoft.Dynamics.CRM.ImportSolution
+  description: "Imports a solution.  "
+- type: Microsoft.Dynamics.CRM.ImportTranslation
+  description: "Imports translations from a compressed file.  "
+- type: Microsoft.Dynamics.CRM.InsertOptionValue
+  description: "Inserts a new option value for a global or local option set.  "
+- type: Microsoft.Dynamics.CRM.InsertStatusValue
+  description: "Inserts a new option into a StatusAttributeMetadata attribute. "
+- type: Microsoft.Dynamics.CRM.InstallSampleData
+  description: "Installs the sample data.  "
+- type: Microsoft.Dynamics.CRM.InstantiateFilters
+  description: "Instantiates a set of filters for Dynamics 365 for Outlook for the specified user.  "
+- type: Microsoft.Dynamics.CRM.InstantiateTemplate
+  description: "Creates an email message from a template (email template).  "
+- type: Microsoft.Dynamics.CRM.LockInvoicePricing
+  description: "Locks the total price of products and services that are specified in the invoice. "
+- type: Microsoft.Dynamics.CRM.LockSalesOrderPricing
+  description: "Locks the total price of products and services that are specified in the sales order (order).  "
+- type: Microsoft.Dynamics.CRM.LoseOpportunity
+  description: "Sets the state of an opportunity to Lost. "
+- type: Microsoft.Dynamics.CRM.Merge
+  description: "Merges the information from two entity records of the same type. "
+- type: Microsoft.Dynamics.CRM.ModifyAccess
+  description: "Replaces the access rights on the target record for the specified security principal (user or team). "
+- type: Microsoft.Dynamics.CRM.msdyn_AcceptProposedBooking
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_AcceptTeamRecommendation
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_AddInvoiceLineDetails
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_applyworktemplate
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_applyworktemplateforresources
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ApprovalStatusApprove
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ApprovalStatusReject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_AssignGenericResource
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_AutoGenerateProjectTeam
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_batchentityCUD
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_BookingResource
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_BookingResourceRequirement
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_BulkCreatePredecessorsForTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_BulkDeletePredecessorsForTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CancelBookings
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ChangeRequestStatus
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_cloneentity
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CloseAllOpportunityQuotes
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CloseQuoteAsLost
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CloseQuoteAsWon
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CompleteResourceRequest
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CopyProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CopyRelatedProjectEntitiesFromTemplate
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CopyWbsToProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CorrectInvoice
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateContractLineDetailsFromEstimate
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateContractSpecificPriceList
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateEstimateLines
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateEstimatesForProjectTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateExtensionRequirement
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_createinvoicefrominvoiceschedule
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateQuoteFromOpportunity
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateQuoteLineDetailsFromEstimate
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateQuoteSpecificPriceList
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_createrequestfromrequirement
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateSharepointDocumentLocation
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateTaskBasedEstimatesForProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_CreateTemplateFromProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_DeleteEstimateLines
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_DeleteEstimatesForProjectTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExpenseApproveAction
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExpenseEntriesApprove
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExpenseEntriesPendingApproval
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExpenseEntriesRecall
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExpenseEntriesReject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExpenseEntriesSubmit
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExpenseRejectAction
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExpenseSubmitAction
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ExportActual
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_FetchProjectCalendarWorkHours
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_FieldServiceSystemAction
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_FpsAction
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_FulfillResourceDemand
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GenerateContractLineInvoiceSchedule
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GenerateContractLineScheduleOfValues
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GenerateQuoteLineInvoiceSchedule
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GenerateQuoteLineScheduleOfValues
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GeocodeAddress
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetAvailabilitySummaryFromDemand
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetBookingDetailsByRequirementIds
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetBookingDetailsByResource
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetCollectionData
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetContractBillingRadialGaugeData
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetContractDetailedTransactions
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetContractEffortRadialGaugeData
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetContractLineChargeability
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetContractLines
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetDataForContractPerformance
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetDataForRadialGauge
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetDocumentManagementSettings
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetDocumentStorePath
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetEstimatesforProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetGenericResourceDetails
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetMultipleResourceBookingDetails
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetMyChangedSkills
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetOfficeGroupForEntity
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetPrice
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProcessNotes
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProductLine
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProductLines
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjectCoparticipation
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjectCurrencies
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjectDetails
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjectMapForContractLine
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjectMapForQuoteLine
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjects
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjectsForContract
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjectsForQuote
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProjectTaskCategories
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetProposedResources
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetQuoteLineChargeability
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetRequirementChartData
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetRequirementDemand
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetRequirementDemandDisplay
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetResourceAvailability
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetResourceAvailabilitySummary
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetResourceBookingByProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetResourceBookingDetails
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetResourceBookingFormParameters
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetResourceDemandTimeLine
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetResourcePopupDetails
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetResources
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetSummaryBookings
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetTimelineData
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetTransactionUnitPrices
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_GetUserTimeZoneName
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_IndentWBSTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_initializedefaultclonequery
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_InvoicePaid
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_InvoiceRecalculate
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_IoTSendTestAlert
+  description: "[Reserved for future use.] "
+- type: Microsoft.Dynamics.CRM.msdyn_IsProjectTemplatesView
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_JoinProjectTeam
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_JsonGetBoolean
+  description: "Reads a Boolean property in the specified JSON object."
+- type: Microsoft.Dynamics.CRM.msdyn_JsonGetNumber
+  description: "Reads a numeric property in the specified JSON object."
+- type: Microsoft.Dynamics.CRM.msdyn_JsonGetString
+  description: "Reads a text property in the specified JSON object"
+- type: Microsoft.Dynamics.CRM.msdyn_LoadFactTableEstimate
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_LogFindWorkEvent
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MarkIntegrationJobAsFailedAsync
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MoveDownWBSTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MoveProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MoveUpWBSTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MSProject_ExportToProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MSProject_GetFindResourcesURL
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MSProject_LinkToProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MSProject_PublishToExistingProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MSProject_ReadFromExistingProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MSProject_ReadProjectTeamMembers
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_MSProject_UnlinkFromProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_NewInvoiceContract
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_OutdentWBSTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ParentIoTAlerts
+  description: "Calls the IoT - Debounce IoT Alerts action and passes 60 for the TimeSpan parameter."
+- type: Microsoft.Dynamics.CRM.msdyn_PostInvoice
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_PostJournal
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ProjectTeamMemberSignUpProcess
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ProjectTeamMemberSignupprocessaccept
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ProjectTeamUpdateMembershipStatus
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ReadEstimateLines
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_recallrequestforrequirement
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_RecommendWork
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_RegisterCustomEntity
+  description: "Registers any custom entity that may or may not already have connected IoT devices. This action invokes the IoT – Register Device action."
+- type: Microsoft.Dynamics.CRM.msdyn_RegisterIoTDevice
+  description: "Publishes the registration requests for an IoT device."
+- type: Microsoft.Dynamics.CRM.msdyn_RejectProposedBooking
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ResAssignResourcesForTask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ResGetResourceDetail
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ResolveTimezone
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ResourceAssignmentDetailUpdate
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ResourceReservationCancel
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ResourceSubstitution
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ResourceUtilization
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ResourceUtilizationChart
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_RetrieveDistanceMatrix
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_RetrieveResourceAvailability
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_SaveProjectLineTasks
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_SetDefaultRole
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_SubmitCategoriesAndPriceLists
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_SubmitRolesAndPriceLists
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_TimeEntriesApprove
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_TimeEntriesCopyPaste
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_TimeEntriesPaste
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_TimeEntriesPendingApproval
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_TimeEntriesRecall
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_TimeEntriesReject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_TimeEntriesSubmit
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_UpdateAllEstimatesForProject
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_UpdateChangedSkills
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_UpdateEffortContour
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_UpdateEstimateLineDetails
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_UpdateEstimateLines
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_updateprojecttask
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_updateremainingresourcerequirement
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_UpdateRequirementDemand
+  description: ""
+- type: Microsoft.Dynamics.CRM.msdyn_ValidateFixedPriceLineTotals
+  description: ""
+- type: Microsoft.Dynamics.CRM.OrderOption
+  description: "Sets the order for an option set.  "
+- type: Microsoft.Dynamics.CRM.ParseImport
+  description: "Submits an asynchronous job that parses all import files that are associated with the specified import (data import). "
+- type: Microsoft.Dynamics.CRM.PickFromQueue
+  description: "Assigns a queue item to a user and optionally remove the queue item from the queue. "
+- type: Microsoft.Dynamics.CRM.ProcessInboundEmail
+  description: "Processes the email responses from a marketing campaign. "
+- type: Microsoft.Dynamics.CRM.PropagateByExpression
+  description: "Creates a quick campaign to distribute an activity to accounts, contacts, or leads that are selected by a query. "
+- type: Microsoft.Dynamics.CRM.ProvisionLanguage
+  description: "Provisions a new language.  "
+- type: Microsoft.Dynamics.CRM.PublishAllXml
+  description: "Publishes all changes to solution components. "
+- type: Microsoft.Dynamics.CRM.PublishDuplicateRule
+  description: "Submits an asynchronous job to publish a duplicate rule. "
+- type: Microsoft.Dynamics.CRM.PublishProductHierarchy
+  description: "Publishes a product family record and all its child records.  "
+- type: Microsoft.Dynamics.CRM.PublishTheme
+  description: "Publishes a theme and set it as the current theme.  "
+- type: Microsoft.Dynamics.CRM.PublishXml
+  description: "Publishes specified solution components. "
+- type: Microsoft.Dynamics.CRM.QualifyLead
+  description: "Qualifies a lead and create account, contact, and opportunity records that are linked to the originating lead record. "
+- type: Microsoft.Dynamics.CRM.QualifyMemberList
+  description: "Qualifies the specified list and either override the list members or remove them according to the specified option. "
+- type: Microsoft.Dynamics.CRM.QueryExpressionToFetchXml
+  description: "Converts a QueryExpression query to its equivalent FetchXML query"
+- type: Microsoft.Dynamics.CRM.ReactivateEntityKey
+  description: ""
+- type: Microsoft.Dynamics.CRM.ReassignObjectsOwner
+  description: "Reassigns all records that are owned by the security principal (user or team) to another security principal (user or team).  "
+- type: Microsoft.Dynamics.CRM.ReassignObjectsSystemUser
+  description: "Reassigns all records that are owned by a specified user to another security principal (user or team). "
+- type: Microsoft.Dynamics.CRM.Recalculate
+  description: "Recalculate system-computed values for rollup fields in the goal hierarchy. "
+- type: Microsoft.Dynamics.CRM.ReleaseToQueue
+  description: "Assigns a queue item back to the queue owner so others can pick it.  "
+- type: Microsoft.Dynamics.CRM.RemoveAppComponents
+  description: ""
+- type: Microsoft.Dynamics.CRM.RemoveFromQueue
+  description: "Removes a queue item from a queue.  "
+- type: Microsoft.Dynamics.CRM.RemoveItemCampaign
+  description: "Removes an item from a campaign.  "
+- type: Microsoft.Dynamics.CRM.RemoveItemCampaignActivity
+  description: "Removes an item from a campaign activity. "
+- type: Microsoft.Dynamics.CRM.RemoveMemberList
+  description: "Removes a member from a list (marketing list).  "
+- type: Microsoft.Dynamics.CRM.RemoveMembersTeam
+  description: "Removes members from a team."
+- type: Microsoft.Dynamics.CRM.RemoveParent
+  description: "Removes the parent for a system user (user) record. "
+- type: Microsoft.Dynamics.CRM.RemovePrivilegeRole
+  description: "Removes a privilege from an existing role. "
+- type: Microsoft.Dynamics.CRM.RemoveSolutionComponent
+  description: "Removes a component from an unmanaged solution. "
+- type: Microsoft.Dynamics.CRM.RemoveUserFromRecordTeam
+  description: "Removes a user from the auto created access team for the specified record. "
+- type: Microsoft.Dynamics.CRM.RenewContract
+  description: "Renews a contract and create the contract details for a new contract.  "
+- type: Microsoft.Dynamics.CRM.RenewEntitlement
+  description: "Renews an entitlement. "
+- type: Microsoft.Dynamics.CRM.ReplacePrivilegesRole
+  description: "Replaces the privilege set of an existing role.  "
+- type: Microsoft.Dynamics.CRM.Reschedule
+  description: "Reschedules an appointment, recurring appointment, or service appointment (service activity). "
+- type: Microsoft.Dynamics.CRM.ResetUserFilters
+  description: "Resets the offline data filters for the calling user to the default filters for the organization.  "
+- type: Microsoft.Dynamics.CRM.RevertProduct
+  description: "Reverts changes done to properties of a product family, product, or bundle record, and set it back to its last published (active) state. "
+- type: Microsoft.Dynamics.CRM.ReviseQuote
+  description: "Sets the state of a quote to Draft. "
+- type: Microsoft.Dynamics.CRM.RevokeAccess
+  description: "Replaces the access rights on the target record for the specified security principal (user or team).  "
+- type: Microsoft.Dynamics.CRM.RouteTo
+  description: "Routes a queue item to a queue, a user, or a team.  "
+- type: Microsoft.Dynamics.CRM.SendBulkMail
+  description: "Sends bulk email messages."
+- type: Microsoft.Dynamics.CRM.SendEmail
+  description: "Sends an e-mail message. "
+- type: Microsoft.Dynamics.CRM.SendEmailFromTemplate
+  description: "Sends an e-mail message to a recipient using an e-mail template.  "
+- type: Microsoft.Dynamics.CRM.SendFax
+  description: "Sends a fax.  "
+- type: Microsoft.Dynamics.CRM.SendTemplate
+  description: "Sends a bulk email message that is created from a template.  "
+- type: Microsoft.Dynamics.CRM.SetAutoNumberSeed
+  description: ""
+- type: Microsoft.Dynamics.CRM.SetBusinessSystemUser
+  description: "Moves a system user (user) to a different business unit. "
+- type: Microsoft.Dynamics.CRM.SetDataEncryptionKey
+  description: "Sets or restore the data encryption key.  "
+- type: Microsoft.Dynamics.CRM.SetFeatureStatus
+  description: "internal"
+- type: Microsoft.Dynamics.CRM.SetLocLabels
+  description: "Sets localized labels for a limited set of entity attributes.  "
+- type: Microsoft.Dynamics.CRM.SetParentSystemUser
+  description: "Sets a new parent system user (user) for the specified user.  "
+- type: Microsoft.Dynamics.CRM.SetProcess
+  description: "Sets the process that associates with a given target entity. The user can set to another business process or specify null to clear out the current process."
+- type: Microsoft.Dynamics.CRM.SetReportRelated
+  description: "Links an instance of a report entity to related entities.  "
+- type: Microsoft.Dynamics.CRM.TransformImport
+  description: "Submits an asynchronous job that transforms the parsed data.  "
+- type: Microsoft.Dynamics.CRM.TriggerServiceEndpointCheck
+  description: "Validates the configuration of a Microsoft Azure Service Bus solution’s service endpoint. "
+- type: Microsoft.Dynamics.CRM.UninstallSampleData
+  description: "Uninstalls the sample data."
+- type: Microsoft.Dynamics.CRM.UnlockInvoicePricing
+  description: "Unlocks pricing for an invoice.  "
+- type: Microsoft.Dynamics.CRM.UnlockSalesOrderPricing
+  description: "Unlocks pricing for a sales order (order).  "
+- type: Microsoft.Dynamics.CRM.UnpublishDuplicateRule
+  description: "Submits an asynchronous job to unpublish a duplicate rule.  "
+- type: Microsoft.Dynamics.CRM.UpdateFeatureConfig
+  description: "internal"
+- type: Microsoft.Dynamics.CRM.UpdateOptionValue
+  description: "Updates an option value in a global or local option set. "
+- type: Microsoft.Dynamics.CRM.UpdateProductProperties
+  description: "Updates values of the property instances (dynamic property instances) for a product added to an opportunity, quote, order, or invoice. "
+- type: Microsoft.Dynamics.CRM.UpdateSolutionComponent
+  description: "Updates a component in an unmanaged solution."
+- type: Microsoft.Dynamics.CRM.UpdateStateValue
+  description: "Updates an option set value in for a StateAttributeMetadata attribute.  "
+- type: Microsoft.Dynamics.CRM.Validate
+  description: "Verifies that an appointment or service appointment (service activity) has valid available resources for the activity, duration, and site, as appropriate.  "
+- type: Microsoft.Dynamics.CRM.ValidateSavedQuery
+  description: "Validates a saved query."
+- type: Microsoft.Dynamics.CRM.WinOpportunity
+  description: "Sets the state of an opportunity to Won.  "
+- type: Microsoft.Dynamics.CRM.WinQuote
+  description: "Sets the state of a quote to Won.  "
+href_see_also:
+- text: "Use the Microsoft Dynamics CRM Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex
