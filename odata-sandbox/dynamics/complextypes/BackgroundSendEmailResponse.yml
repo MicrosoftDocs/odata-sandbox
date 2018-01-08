@@ -1,0 +1,54 @@
+### YamlMime:OData
+uid: Microsoft.Dynamics.CRM.BackgroundSendEmailResponse
+name: "BackgroundSendEmailResponse"
+type: complextype
+metadata: 
+  title: "Microsoft Dynamics 365 Customer Engagement BackgroundSendEmailResponse ComplexType Reference | MicrosoftDocs"
+  ms.date: "10/20/2017"
+  ms.service: "crm-online"
+  ms.topic: "reference"
+  applies_to: 
+    - "Dynamics 365 (online)"
+  ms.assetid: e9ce1f1c-f84a-4f83-839f-8e65ad7b0d96
+  author: "jimdaly"
+  ms.author: "jdaly"
+  manager: "jdaly"
+  meta-description: "Reference information about the Dynamics 365 Customer Engagement Web API BackgroundSendEmailResponse ComplexType."
+namespace: Microsoft.Dynamics.CRM
+# This complex type doesn't inherit from another complextype.
+description: "" 
+properties:
+  description: "The properties of a complex type contain the structured data of the type."
+  property_items:
+  - name: HasAttachments
+    type: Edm.Boolean
+    nullable: false
+    unicode: true
+    description: ""
+    iscollection: true
+navigation_properties:
+  description: "The navigation properties of a complex type contain references to an entity type or a collection of entity types."
+  property_items:
+  - name: EntityCollection
+    type: mscrm.email
+    nullable: false
+    description: ""
+    iscollection: true
+usedby:
+  description: "The following use the BackgroundSendEmailResponse ComplexType."
+  usedby_items:
+  - name: Microsoft.Dynamics.CRM.BackgroundSendEmail
+    used_as: ReturnType
+# This complex type has no remarks.
+href_see_also:
+- text: "Use the Dynamics 365 Customer Engagement Web API"
+  href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
+xref_see_also:
+- Microsoft.Dynamics.CRM.EntityTypeIndex
+- Microsoft.Dynamics.CRM.ActionIndex
+- Microsoft.Dynamics.CRM.FunctionIndex
+- Microsoft.Dynamics.CRM.QueryFunctionIndex
+- Microsoft.Dynamics.CRM.ComplexTypeIndex
+- Microsoft.Dynamics.CRM.EnumTypeIndex
+- Microsoft.Dynamics.CRM.MetadataEntityTypeIndex
+- Microsoft.Dynamics.CRM.SolutionIndex

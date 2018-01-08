@@ -2,12 +2,12 @@
 uid: Microsoft.Dynamics.CRM.CalculateRollupField
 name: "CalculateRollupField"
 type: function
-metadata:
+metadata: 
   title: "Microsoft Dynamics 365 Customer Engagement CalculateRollupField Function Reference | MicrosoftDocs"
-  ms.date: "2017-09-21"
+  ms.date: "10/20/2017"
   ms.service: "crm-online"
   ms.topic: "reference"
-  applies_to:
+  applies_to: 
   - "Dynamics 365 (online)"
   ms.assetid: 5bcc6551-47aa-45d3-8225-9453326206f3
   author: "jimdaly"
@@ -15,9 +15,8 @@ metadata:
   manager: "jdaly"
   meta-description: "Reference information about the Dynamics 365 Customer Engagement CalculateRollupField Function."
 namespace: Microsoft.Dynamics.CRM
-header:
-  description: "Calculates the value of a rollup attribute. "
-  iscomposable: false
+description: "Calculates the value of a rollup attribute. "
+iscomposable: false
 # This function is not bound to any entities.
 isbound: false
 parameters:
@@ -38,14 +37,10 @@ return_type:
   type: Microsoft.Dynamics.CRM.crmbaseentity
   iscollection: false
   nullable: false
-  description: "Contains the response from the CalculateRollupField function."
 # This function no specific entities for this function identified.
-remarks: |
-  ## Remarks
-
-  These are some remarks for the CalculateRollupField function.
+# This function has no remarks.
 href_see_also:
-- text: "Use the Microsoft Dynamics CRM Web API"
+- text: "Use the Dynamics 365 Customer Engagement Web API"
   href: "https://docs.microsoft.com/dynamics365/customer-engagement/developer/use-microsoft-dynamics-365-web-api"
 xref_see_also:
 - Microsoft.Dynamics.CRM.EntityTypeIndex
