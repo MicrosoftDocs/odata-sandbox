@@ -856,7 +856,7 @@ in_this_section:
   description: "Allows to specify for which territory a resource could provide services for"
 - type: Microsoft.Dynamics.CRM.msdyn_rma
   displayName: "RMA"
-  description: "Records RMAs for products to be retuned from customers"
+  description: "Records RMAs for products to be returned from customers"
 - type: Microsoft.Dynamics.CRM.msdyn_rmaproduct
   displayName: "RMA Product"
   description: "Records products to be returned on an RMA"
@@ -877,7 +877,7 @@ in_this_section:
   description: "Gathers data about utilization per role to display in a chart"
 - type: Microsoft.Dynamics.CRM.msdyn_rtv
   displayName: "RTV"
-  description: "Records RTVs for products to be retuned to vendors"
+  description: "Records RTVs for products to be returned to vendors"
 - type: Microsoft.Dynamics.CRM.msdyn_rtvproduct
   displayName: "RTV Product"
   description: "Records products to be returned on an RTV"
